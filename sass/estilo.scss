@@ -1,0 +1,92 @@
+@import 'common/reset';
+@import 'common/font';
+
+#todo-create{
+    font-size: 14px;
+    background: #46cd6bcc;;
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 12px;
+}
+#todo-update{
+    font-size: 14px;
+    background: #154cb780;
+    border-radius: 6px;
+    font-weight: bold;
+    margin: 5px 5px 5px 70px;;
+    padding: 10px;
+}
+.todo-item, .titulo-card{
+    font-size: 18px;
+    font-weight: bold;
+}
+.todo-item{
+    background: gainsboro;
+}
+
+.titulo-card{
+    font-size: 24px;
+    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+.title{
+    
+    font-size: 27px;
+    font-weight: bold;
+    padding: 72px;
+    
+}
+
+.card{
+    box-shadow: 0 0 5px #666;
+    padding: 25px;
+    margin: 25px;
+    display: inline-table;
+    width: 86%;
+}
+
+.todo-delete{
+    font-size: 14px;
+    background: #e44646b0;
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.filas{
+    border-top: 1px solid #bcb3b3;
+    padding: 15px;
+}
+.table{
+    box-shadow: 0 0 5px #666; 
+    border: 20px solid white;
+    margin: 65px;
+}
+.wapper{
+    display: flex;
+}
+
+.fila-user,.th-user{
+    text-align: center;
+}
+
+article{
+    display: block;
+    margin: 22px;
+    width: 50%;
+}
+input{
+    height: 18px;
+    border-radius: 4px;
+    margin: 3px;
+    background-color: white;
+    border: 1px solid #aea8a8;
+    font-size: 18px;
+    padding: 5px;
+    margin: 0px 12px 11px 0px;
+}
+.label{
+    padding: 11px;
+    border: 1px solid #bfb5b5;
+    border-radius: 4px;
+}

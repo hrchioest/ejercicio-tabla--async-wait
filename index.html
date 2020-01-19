@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js" integrity="sha256-S1J4GVHHDMiirir9qsXWc8ZWw74PHHafpsHp5PXtjTs=" crossorigin="anonymous"></script>
+   
+    <title>To Do!</title>
+    
+</head>
+<body>
+    <div class="wapper"> 
+        <article>
+            <h1 class="title">LISTA JSONPLACEHOLDER</h1>
+            <section class="card">
+                <h2 class=titulo-card>Agregar To Do</h1>
+                <input type="text" id="todo-title-create" placeholder="title"/>
+                <input type="number" id="todo-user-create" placeholder="user"/>
+                <button id="todo-create">Agregar</button>
+            </section>   
+            <section class="card">
+                <h2 class="titulo-card">Modificar To Do</h1>
+                <input type="number"  id="todo-id-update" placeholder="id" />
+                <input type="text"  id="todo-title-update" placeholder="title" />
+                <input type="number" id="todo-user-update" placeholder="user"/>
+                <div>
+                    <label class="label">
+                        <input type="checkbox" checked id="todo-completed-update" />Completed?
+                    </label>
+                    <button id="todo-update">Modificar</button>
+                </div>
+                
+
+            </section>
+        </article>
+    
+        <table class="table"> 
+            <thead id="header-list">
+                <tr class="todo-item" >
+                    <th class="filas"><span class="todo-id">Id</span></th>
+                    <th class="filas"><span class="todo-title">Mi Titulo</span></th>
+                    <th class="filas fila-user"><span class="todo-user">UserId</span></th>
+                    <th class="filas"><span class="todo-completed">Completed</span></th>
+                    <th class="filas"><span class="opcion">Option</span></th>
+                </tr>
+            </thead>
+            <tbody id="body-list">
+            </tbody>   
+        </table> 
+    </div>   
+    <script src="ejercicio-lista.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
